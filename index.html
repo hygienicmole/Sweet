@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>HygienicStore</title>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="nav-branding">
+            <a href="index.html"><span>HygienicStore</span></a>
+        </div>
+        <div class="menu-btn">
+            <button onclick="openManu()"><i class="fa-solid fa-bars"></i></button>
+        </div>
+        <nav class="nav-links">
+            <ul>
+                <li><a href="catalog.html">Products</a></li>
+                <li><a href="index.html#new">New</a></li>
+                <li><a href="collection.html">Our Collection</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <div class="search">
+            <ul>
+                <li class="search-input" id="search-txt-input" ><input type="text" placeholder="search"> <button onclick="openSearch()"><i class="fa-solid fa-magnifying-glass"></i></button></li>
+                <li><a href=""><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <li><a class="login-btn" href="login.html">Login</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="menu" id="menu">
+        <div class="close-btn">
+            <button onclick="closeManu()"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="menu-branding">
+            <a href="index.html"><span>HygienicStore</span></a>
+        </div>
+        <nav class="menu-links">
+            <ul>
+                <li><a href="catalog.html">Products</a></li>
+                <li><a href="index.html#new">New</a></li>
+                <li><a href="collection.html">Our Collection</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="main-container landing">
+        <div class="flex-container">
+            <div class="text-card-1">
+                <span>Start Fulfilling Your Desires Today</span>
+            </div>
+            <div class="img-card">
+                <img src="img/main-img.jpg" alt="img">
+            </div>
+            <div class="social-links">
+                <a href="https://www.facebook.com">Facebook</a>
+                <a href="https://www.instagram.com">Instagram</a>
+                <a href="https://twitter.com">Twitter</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="trending"  id="new">
+            <p>Trending</p>
+            <div class="products">
+                <a href="product-page.html">
+                    <div class="product-card">
+                    <img src="img/product/img-1.jpg" alt="img">
+                    <div class="product-info">
+                    <span>MOLE AIR MAX SE</span>
+                    <span>₹4,990.00</span>
+                    </div>
+                </div></a>
+                
+                <a href="product-page.html">
+                    <div class="product-card">
+                        <img src="img/product/img-2.jpg" alt="img">
+                        <div class="product-info">
+                            <span>MOLE MAX PE</span>
+                            <span>₹8,890.00</span>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="product-page.html">
+                    <div class="product-card">
+                        <img src="img/product/img-3.jpg" alt="img">
+                        <div class="product-info">
+                            <span>MOLE AIR COMFI</span>
+                            <span>₹9,990.00</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="product-page.html">
+                    <div class="product-card">
+                        <img src="img/product/img-4.jpg" alt="img">
+                        <div class="product-info">
+                            <span>MOLE MAX SE-2</span>
+                            <span>₹6,590.00</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="trending"  id="new">
+            <p>Best Of Us</p>
+            <div class="products">
+                <a href="product-page.html">
+                    <div class="product-card">
+                    <img src="img/product/img-5.jpg" alt="img">
+                    <div class="product-info">
+                    <span>HYGIENIC PRO SERIES 1</span>
+                    <span>₹17,990.00</span>
+                    </div>
+                </div></a>
+                
+                <a href="product-page.html">
+                    <div class="product-card">
+                        <img src="img/product/img-6.jpg" alt="img">
+                        <div class="product-info">
+                            <span>HYGIENIC PRO SERIES 2</span>
+                            <span>₹24,990.00</span>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="product-page.html">
+                    <div class="product-card">
+                        <img src="img/product/img-7.jpg" alt="img">
+                        <div class="product-info">
+                            <span>HYGIENIC PRO SERIES 3</span>
+                            <span>₹23,990.00</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="product-page.html">
+                    <div class="product-card">
+                        <img src="img/product/img-8.jpg" alt="img">
+                        <div class="product-info">
+                            <span>HYGIENIC PRO SERIES 4</span>
+                            <span>₹14,990.00</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="main-container reveal">
+        <div class="info-flex-container">
+            <div class="img-card">
+                <img src="img/info.jpg" alt="img">
+            </div>
+            <div class="info-flex">
+                <div class="text-card-2">
+                    <span>We Will Help You Out To A Comfortable Yet Fabulous Walking Experiencee</span>
+                    <div class="site-info">
+                        <p>Instead of narrowing our focus like negative emotions do, positive emotions affect our brains in ways that increase our awareness, attention, and memory.</p>
+                        <p>Positive emotions feel good, and they're good for you.Create room in your day for joy, fun, friendship, relaxation, gratitude, and kindness. Make these things a habit and you positively will be a happier you!</p>
+                    </div>
+                </div>
+                <div class="clients-info">
+                        <span>7200+<br><p>Supremely Satisfied Clients</p></span>
+                        <span>96%<br><p>Five Star Review</p></span>
+                        <span>1090<br><p>Products</p></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-container reveal">
+        <div class="categories">
+            <p>Browse Categories</p>
+            <div class="cat-links">
+                <a href="dresses.html">Shoes</a>
+                <a href="trouser.html">Clothing</a>
+                <a href="pants.html">Hygienic-Exclusive</a>
+                <a href="tops.html">Icons</a>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="main-container reveal">
+        <div class="updates">
+            <div class="sub-section">
+                <span>Subscribe To See The Latest Updates</span>
+                <form>
+                    <input type="email" placeholder="Email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+            <div class="img-section">
+                <img src="img/update-1.jpg" alt="update">
+                <img src="img/update-2.jpg" alt="update">
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        
+        <div class="footer-flex">
+            <div class="footer-branding">
+                <span></span><a href="index.html">HygienicStore</a></span>
+            </div>
+    
+            <div class="navigate">
+                <span>Navigate</span>
+                <p><a href="">Shop</a></p>
+                <p><a href="index.html">Lookback</a></p>
+                <p><a href="">About</a></p>
+                <p><a href="">Contact</a></p>
+            </div>
+    
+            <div class="assistance">
+                <span>Assistance</span>
+                <p><a href="">Shipping</a></p>
+                <p><a href="">Privacy policy</a></p>
+                <p><a href="">FAQ</a></p>
+            </div>
+    
+            <div class="social-footer">
+                <span>Social</span>
+                <p><a href="https://www.facebook.com">Facebook</a></p>
+                <p><a href="https://www.instagram.com">Instagram</a></p>
+                <p><a href="https://twitter.com">Twitter</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <span>Copyright © HygienicStore 2022</span>
+    </div>
+
+    <script src="index.js"></script>
+
+    <!-- for scroll reveal animation -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+    ScrollReveal().reveal('.landing',{delay : 300})
+    ScrollReveal().reveal('.reveal', { delay: 250 });
+    ScrollReveal().reveal('.products', { delay: 250 });
+    </script>
+
+</body>
+</html>
